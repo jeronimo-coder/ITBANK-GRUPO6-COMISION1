@@ -24,6 +24,12 @@ nav a{
     font-weight: 100;
 }
 
+.logo3d {
+    width: 60%;
+    margin-top: 100px;
+    position: absolute;
+}
+
 .formulario{
     width: 40%;
     height: 500px;
