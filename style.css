@@ -3,18 +3,23 @@
     padding: 0;
     margin: 0;
 }
-
-nav{
-    border-bottom: solid 1px #cfcfcf;
-    height: 50px;
+.texto-nav {
+    text-decoration: none;
+    color: inherit;
+    padding: 1em;
+    cursor: pointer;
+    font-weight: bold;
+}
+#descripcion-banco {
+    padding-left: 10%;
+    padding-top: 5%;
+}
+.login-form {
+    padding-top: 7%;
 }
 
-nav a{
-    float:right;
-    margin: 5px 30px
-}
 .bienvenida{
-    width: 55%;
+    width: 59%;
     float: left;
     text-align: center;
 }
@@ -30,42 +35,6 @@ nav a{
     position: absolute;
 }
 
-.formulario{
-    width: 40%;
-    height: 500px;
-    float: right;
-    border-left: solid 1px #cfcfcf;
-    border-bottom: solid 1px #cfcfcf;
-    margin: 0 0 0 5px; 
-    box-shadow: -1px 1px 10px #888888;
-}
-
-.formulario .eleccion{
-    margin: 15px 0;
+.texto-centrado {
     text-align: center;
-    border-bottom: solid 1px #cfcfcf;
-}
-
-.formulario .eleccion span{
-    padding: 10px;
-    margin: 35px;
-    border-radius: 10px;
-    width: 100%;
-    cursor: pointer;
-}
-
-.formulario h4{
-    text-align: center;
-}
-
-.formulario form{
-    margin: 10px;
-}
-
-.formulario form input{
-    margin: 5px 0;
-}
-
-.form-control{
-    width: 100%;
 }
